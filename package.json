@@ -1,0 +1,34 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "description": "Shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GundetiGnanika-20186026/cc.git"
+  },
+  "author": "gnanika",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "~1.15.0",
+    "express-session": "~1.13.0",
+    "redis": "~2.6.0-2",
+    "mysql": "~2.10.2",
+    "connect-redis": "~3.0.2",
+    "cookie-parser": "~1.4.1",
+    "node-rest-client": "~1.8.0",
+    "mongodb": "~2.1.18",
+    "change-case": "~2.3.1",
+    "ejs": "~2.4.1",
+    "forever": "~0.15.1",
+    "async": "~2.0.0-rc.3",
+    "request": "~2.72.0",
+    "node-redis-failover": "~0.2.5"
+  },
+  "devDependencies": {}
+}
